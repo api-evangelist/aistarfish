@@ -1,7 +1,27 @@
 aid: aistarfish
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aistarfish.png
 name: aistarfish
-description: aistarfish is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'aistarfish (aistarfish.com) is the web home of Haixin Health (海心健康),
+  a Chinese digital-health company operated by Zhejiang Haixin Zhihui Technology Co.,
+  Ltd. that provides full-course disease management and support services for cancer
+  patients across their entire treatment journey. Its consumer-facing products are
+  iOS and Android mobile apps built around a patient community, peer-support networks,
+  patient and official medical diaries, and patient-to-doctor connections, under the
+  mission of "helping cancer patients live longer and live better." The company holds
+  an Internet Pharmaceutical Information Service qualification. It is surfaced here
+  as a portfolio company of the Qiming venture network. As of this pass it publishes
+  no public developer portal, API documentation, or machine-readable API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/aistarfish/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +34,12 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Healthcare
+- Digital Health
+- Oncology
+- Patient Management
+- Mobile Apps
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aistarfish-domain-security.yml
 - type: Website
   url: https://aistarfish.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
